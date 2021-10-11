@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar Section-->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">
+          <img src="./images/logo.png" height="70px" />
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">/start</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#main" class="navbar__links" id="about-page">/aboutMe</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#projects" class="navbar__links" id="projects-page"
+              >/projects</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="mailto:alinn.nita@gmail.com" class="button" id="contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__intro">Hi, my name is</h1>
+        <h2 class="hero__heading">Alin Nita</h2>
+        <h3 class="hero__info">I build web stuff.</h3>
+        <p class="hero__description">
+          I'm a self-taught web developer looking forward to creating high quality digital
+          experiences.
+          <br />
+          My focus at the moment is on interactive interfaces and experimenting
+          with React.js.
+        </p>
+        <a href="Alin Nita CV .pdf" class="hero__btn"> Resume </a>
+      </div>
+      <!-- About Me Section -->
+      <div class="main" id="main">
+        <div class="about__title">/aboutMe</div>
+        <div class="about__container">
+        <div class="about__description">
+          <div class="description">
+            <p>I enjoy building things on the internet, always had. Started with creating gaming communities and dedicated servers, then went on becoming a producer in the <a href="https://funlabs.com" target="_blank"> game dev </a> and <a href="https://www.aeriagames.com" target="_blank">publishing</a> industry. </br></br> Made the switch from the <a href="https://corporate.888.com" target="_blank" >product management</a> role in order to be more hands on. 
+        </br></br>
+          Discovering React.js was key in my new yerning for web dev knowledge and experimentation.
+      </br> </br>
+          Here are a some technologies I build stuff with:
+    </p>
+          
+          <ul class="skills_list">
+            <li> HTML</li>
+            <li> CSS </li>
+            <li> JavaScript (ES6+) </li>
+            <li> React.js </li>
+            <li> Node.js </li>
+            <li> Firebase </li>
+          </ul>
+        </div>
+      </div>
+        <div class="profile_img__container">
+          <div class="profile_img">
+            <img src="./images/profile.png" />
+          </div>
+        </div>
+      </div>
+      <!-- Projects Section -->
+      <section class="projects" id="projects">
+        <h2>/projects</h2>
+      </br>
+        <div class="projects__grid">
+          
+          <a href="https://photo-galery-firebase.netlify.app"><div id="projects__card2" class="projects__card">
+            <div class="projects__inner">
+              <div class="projects__top">
+                <h3 class="projects__title"> Image Galery </h3>
+                <div class="projects__description">
+                  <p>
+                    Images galery build with React, using Firebase for database storage.
+                  </p>
+                </div>
+              </div>
+              <div class="projects__bot">
+                <ul class="projects__tech_list">
+                  <li>Firebase</li>
+                  <li>React.js</li>
+                  <li>Node.js</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          </a>
+          <a href="https://social-fetch.netlify.app">
+          <div id="projects__card3" class="projects__card">
+            <div class="projects__inner">
+              <div class="projects__top">
+                <h3 class="projects__title"> Social Fetch </h3>
+                <div class="projects__description">
+                  <p>
+                    A SPA that fetches user data and displays it in social cards format. 
+                  </p>
+                </div>
+              </div>
+              <div class="projects__bot">
+                <ul class="projects__tech_list">
+                  <li>React.js</li>
+                  <li>Node.js</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          </a>
+          <a href="https://crypto2watch.netlify.app"><div id="projects__card1" class="projects__card">
+            <div class="projects__inner">
+              <div class="projects__top">
+                <h3 class="projects__title"> Crypto Watch </h3>
+                <div class="projects__description">
+                  <p>
+                    A React single page app that fetches data from coingecko 
+                    and filters it based on your input.
+                  </p>
+                </div>
+              </div>
+              <div class="projects__bot">
+                <ul class="projects__tech_list">
+                  <li>Axios</li>
+                  <li>React.js</li>
+                  <li>Node.js</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          </a>
+          </div>
+      </section>
+      <section class=contact>
+        <h2 class="hero__intro">Want to find more?</h2>
+        <h2 class="hero__heading">Get In Touch</h2>
+        <p>I'm currently looking for new opportunities to join a development team, but in case you have another type of enquiry feel free to send me an email and I'll get back to you ASAP!</p>
+        <a href="mailto:alinn.nita@gmail.com" class="contact__btn"> Contact </a>
+      </section>
+      <div class="footer">
+              <a href="" target=""></a>
+        </div>
+      </div>
+    <div orientation="left" class="side__left">
+      <ul class="social">
+        <li>
+          <a href="https://github.com/alinnit">
+          <img src="./images/git.png" width="24" height="24"/> 
+          </a>
+        </li>
+        <br/>
+        <li>
+          <a href="https://www.linkedin.com/in/alin-nita-89a9a87a/">
+            <img src="./images/linkedin.png" width="24" height="24"/>
+        </li>
+        <br/>
+        <li>
+          <a href="https://www.codewars.com/users/alinnit">
+            <img src="./images/codewars.png" width="24" height="24"/>
+        </li>
+        <br/>
+        <br/>
+      </ul>
+    </div> 
+    <div orientation="right" class="side__right">
+      <div class="email">
+        <a href="mailto:alinn.nita@gmail.com">alinn.nita@gmail.com</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
